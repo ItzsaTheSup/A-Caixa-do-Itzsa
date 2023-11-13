@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+
+<html lang="pt">
+
+<head>
+	<meta charset = "UTF-8"/>
+	
+	<link rel = "icon" href = "insert-images/icons/i.png" />
+	<link rel = "stylesheet" href = "bootstrap/css/bootstrap.css"/> 
+	<link rel = "stylesheet" href = "style.css"/>
+	
+	<script src = "bootstrap/js/bootstrap.js"></script>
+	
+	<style>
+	#forms {
+		position: fixed;
+		height: 100vh;
+		width: 100vw;
+		z-index: 2;
+	}
+	#log-on {
+		position: absolute;
+		background-color: var(--gray-card);
+		width: 30%;
+		height: 35%;
+		top: 32.5%;
+		left: 35%;
+	}
+	label {
+		color: white;
+	}
+	</style>
+	
+	<title>Backstage!</title>
+</head>
+
+<body>
+	<section class = "black-section" id = "forms">
+	<div class = "container glitchy-border" id = "log-on">
+		<form id = "login">
+			<div class="mb-3">
+				<label for="user" class="form-label">Usuário</label>
+				<input type="user" class="form-control" id="user">
+			</div>
+			<div class="mb-3">
+				<label for="password" class="form-label">Senha</label>
+				<input type="password" class="form-control" id="password">
+			</div>
+			<button type="submit" class="btn btn-info"><b>Validar</b></button>
+		</form>
+	</div>
+	<script src = "validation.js"></script>
+	
+	<section class = "text-center" id = "texto" style = "visibility: hidden;">
+		<h2>A tela de login está funcionando!</h2>
+		<p>Não tem nada de muito útil aqui, é só uma tela de login mesmo, que <i>eu espero</i> que você tenha passado lendo o readme e não fuçando os arquivos.</p>
+		<p><b>Mas tem curiosidades!</b></p>
+		<p>Existem textos escondidos na página principal, da mesma cor do fundo. Porque eu sou idiota e gosto de píadinhas idiotas que brincam com contradição.</p>
+		<p>A página principal praticamente virou um palíndromo em questão de cores, já que nós temos:
+		<br> Cinza 80 - Preto - Cinza 20 - Preto com degradê - Cinza 20 - Preto com degradê - Cinza 20 - Preto - Cinza 80
+		<br> E isso não foi planejado.</p>
+	<section>
+</body>
+
+</html>

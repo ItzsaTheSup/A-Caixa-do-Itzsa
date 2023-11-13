@@ -1,0 +1,212 @@
+@font-face {
+	font-family: "BlackRose";
+	src: url("fonts/black-rose.ttf");
+}
+
+:root { 
+	--glitchy-blue: rgba(0, 255, 255, 50%);
+	--glitchy-red: rgba(255, 0, 0, 50%);
+	--gray-1: rgba(51, 51, 51, 100%); /* 20% */
+	--gray-2: rgba(204, 204, 204, 100%); /* 80% */
+	--gray-3: rgba(217, 217, 217, 100%); /* 85% */
+	--gray-card: rgba(26, 26, 26, 50%); /* 10% e baixa opacidade*/
+}
+body {
+	background-color: var(--gray-1);
+}
+
+p {
+	color: white;
+}
+
+h1 {
+	color: black;
+	font-family: 'BlackRose';
+}
+
+h2 {
+	color: white;
+	font-size: 52px;
+	font-family: 'BlackRose';
+	margin-bottom: 20px;
+}
+
+h3 {
+	color: white;
+}
+
+h4 {
+	color: white;
+}
+
+h5 {
+	color: white;
+}
+
+ol li {
+	color: white;
+	font-size: 24px;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	height: 5%;
+	z-index: 2;
+	
+	background-color: var(--gray-2);
+	
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: black;
+}
+
+section {
+	padding: 20px;
+}
+
+footer {
+	height: 50px;
+	
+	background-color: var(--gray-2);
+	
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-top-color: black;
+}
+
+.txt-secundario {
+	font-size: 16px;
+	color: var(--gray-3);
+}
+
+.left {
+	float: left;
+	margin-left: 10px;
+}
+
+.right {
+	float: right;
+	margin-right: 10px;
+}
+
+.btn-info {
+	background-color: var(--glitchy-blue);
+}
+
+.btn-danger {
+	background-color: var(--glitchy-red);
+}
+
+.btn-dark {
+	background-color: var(--gray-card);
+}
+
+.glitchy-border {
+	border-style: solid;
+	border-width: 3px;
+	border-left-width: 7px;
+	border-right-width: 7px;
+	border-left-color: var(--glitchy-red);
+	border-top-color: var(--glitchy-red);
+	border-right-color: var(--glitchy-blue);
+	border-bottom-color: var(--glitchy-blue);
+}
+
+.black-section {
+	background-color: black;
+}
+
+/* Parte do Instagram */
+
+
+
+/* Parte Sobre Mim */
+
+
+
+/* Parte Habilidades */
+
+#habilidades .row {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.check-icon {
+	float: left;
+}
+
+#habilidades p {
+	position: relative;
+	top: 10px;
+	left: 15px;
+}
+
+/* Parte das Ilustrações */
+
+.card {
+	padding-top: 60px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 60px;
+	background-color: var(--gray-card);
+	
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#ilustra h3 {
+	font-size: 40px;
+	font-family: ;
+}
+
+p.card-text {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.btn-card {
+	max-width: 50%;
+}
+
+#glitchy-ink{
+	background-image: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 50%)), url("bg-images/sem-nome.jpg");
+	background-position: center;
+}
+
+#gutural-brasileiro{
+	background-image: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 50%)), url("bg-images/brasil.png");
+	background-position: center;
+}
+
+/* Parte dos Projetos */
+
+#projetos img {
+	float: left;
+	margin: 5px;
+}
+
+#projetos h3 {
+	font-size: 24px;
+}
+
+#projetos h4 {
+	font-size: 20px;
+	color: var(--gray-3);
+	
+}
+
+/* Parte das Competências */
+
+#competencias b{
+	font-size: 20px;
+}
+
+
+/* Rodapé */
+
+footer p{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color: black;
+}
